@@ -6,9 +6,9 @@
     "node": "10.16.2"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next -p 3000",
     "build": "next build",
-    "start": "next start",
+    "start": "next start  -p $PORT",
     "heroku-postbuild": "next build"
   },
   "dependencies": {
