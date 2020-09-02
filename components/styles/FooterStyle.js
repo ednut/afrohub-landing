@@ -41,6 +41,10 @@ const FooterStyle = styled.footer`
                 ul{
                     width: 100%;
                     padding: 0;
+                    @media (max-width: 991px){
+                        text-align:center;
+                        margin-bottom: 3rem;
+                    }
                     li{
                         display: inline-block;
                         margin-right: 2rem;
@@ -68,8 +72,16 @@ const FooterStyle = styled.footer`
             }
             &__quick-links, &__customer-care{
                 width: 40%;
+                @media (max-width: 991px){
+                    width: 50%;
+                }
                 ul{
                     margin-top: 0;
+                    @media (max-width: 991px){
+                        padding: 0;
+                        width: 60%;
+                        margin: 0 auto;
+                    }
                     li{
                         display: block;
                         line-height: 2rem;
@@ -98,9 +110,16 @@ const FooterStyle = styled.footer`
             }
             &__title{
                 margin-bottom: 1rem;
+                @media (max-width: 991px){
+                    text-align: center;
+                    margin-top: 2rem;
+                }
             }
             &__caption{
                 font-size: 1.4rem;
+                @media (max-width: 991px){
+                    text-align: center;
+                }
             }
             &__form{
                 margin-top: 2rem;
@@ -110,6 +129,9 @@ const FooterStyle = styled.footer`
                     display: flex;
                     border-radius: 1rem;
                     font-size: 1.3rem;
+                    @media (max-width: 991px){
+                        padding: 1rem 0.5rem;
+                    }
                     input{
                         width: 70%;
                         border: none;
@@ -128,7 +150,11 @@ const FooterStyle = styled.footer`
                         background: #3188DD;
                         color: #ffffff;
                         font-weight: 300;
-                        padding: 5px 15px;
+                        padding: 0.5rem 1.5rem;
+                        @media (max-width: 991px){
+                            width: 30%;
+                            padding: 1rem 1.5rem;
+                        }
                     }
                 }
             }

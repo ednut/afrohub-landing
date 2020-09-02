@@ -10,6 +10,13 @@ const PartnersStyle = styled.div`
         border-bottom: 1px solid #0000001c;
         text-align: center;
         padding: 3rem 0;
+        @media (max-width: 991px){
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            overflow: hidden;
+            justify-content: center;
+        }
         li{
             display: inline-block;
             margin-right: 7rem;
@@ -18,11 +25,12 @@ const PartnersStyle = styled.div`
             }
             &:nth-child(3){
                 img{
-                    width: 11rem;
+                    width: 8rem;
                 }
             }
             img{
                 margin-top: 1rem;
+                width: 9rem;
             }
         }
     }
