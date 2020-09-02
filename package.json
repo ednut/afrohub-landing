@@ -2,10 +2,14 @@
   "name": "afrohub",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "10.16.2"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "heroku-postbuild": "next build"
   },
   "dependencies": {
     "next": "9.5.2",
