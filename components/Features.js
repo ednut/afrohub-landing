@@ -51,7 +51,7 @@ const Features = () => (
 
                     <div className="features-content--wrapper">
                         <div className="features-content--icon">
-                            <img src="/static/wind.svg" />
+                            <img src="/static/learn.svg" />
                         </div>
                         <div className="features-content--info">
                             <div className="features-content--info_title">Learn</div>
@@ -61,7 +61,7 @@ const Features = () => (
 
                     <div className="features-content--wrapper">
                         <div className="features-content--icon">
-                            <img src="/static/wind.svg" />
+                            <img src="/static/hear.svg" />
                         </div>
                         <div className="features-content--info">
                             <div className="features-content--info_title">Hear</div>

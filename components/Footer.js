@@ -9,7 +9,7 @@ const Footer = () => (
                 <div className="footer--wrap">
                     <div className="footer--logo-section">
                         <div className="footer--logo-section__logo">
-                            <img src="/static/logo.png" />
+                            <img src="/static/logo-white.png" />
                         </div>
                         <div className="footer--logo-section__caption">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.

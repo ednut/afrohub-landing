@@ -24,7 +24,7 @@ const Nav = () => (
     <ContainerStyles>
       <div className="header-wrap">
           <div className="header-wrap--logo-section">
-          <Link href="/"><a><img src="static/logo.png" alt="" /></a></Link>
+          <Link href="/"><a><img src="/static/logo-white.png" alt="" /></a></Link>
           </div>
           <div className="header-wrap--link-section">
               <ul>
