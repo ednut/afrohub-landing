@@ -4,7 +4,7 @@ import Nav from './Nav';
 import Meta from './Meta';
 
 const theme = {
-  headerHeight: '80px',
+  headerHeight: '8rem',
   brandColor: '#3188DD',
   black: '#051441',
   white: '#ffffff',

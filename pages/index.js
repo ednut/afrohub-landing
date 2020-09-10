@@ -11,7 +11,11 @@ import Footer from '../components/Footer'
 
 const Home = () => (
     <>
-        <Banner/>
+        <Banner title="Business Development Re-Invented" 
+                caption="Unifying the global Black network, AfroHub is a space for black people working or interested in tech to connect, collaborate and build black-led products." 
+                button={true}
+                
+        />
         <Partners/>
         <Diversity/>
         <Features/>

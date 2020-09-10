@@ -4,7 +4,9 @@ const NavStyles = styled.div`
     height: ${props => props.theme.headerHeight};
     line-height: 4.5rem;
     width: 100%;
-    background: #3188DD;
+    position: absolute;
+    top: 0;
+    z-index: 100;
     .header-wrap{
         display: flex;
         flex-direction: row;

@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 const BannerStyles = styled.div`
-    background: ${props => props.theme.brandColor};
-    height: 50rem;
+    background: ${props => props.backgroundColor || '#3188DD' };
+    height: 58rem;
     color: ${props => props.theme.white};
+    padding-top: ${props => props.theme.headerHeight};
     .banner{
         &-wrap{
             display: flex;

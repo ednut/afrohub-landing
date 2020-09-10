@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from './Link';
 import Router from 'next/router';
 import NProgress from 'nprogress';
 import ContainerStyles from './styles/ContainerStyles';
@@ -28,10 +28,10 @@ const Nav = () => (
           </div>
           <div className="header-wrap--link-section">
               <ul>
-                  <li className="hide-on-mobile"><Link href="/"><a>Home</a></Link></li>
-                  <li className="hide-on-mobile"><Link href="/"><a>About Us</a></Link></li>
-                  <li className="hide-on-mobile"><Link href="/"><a>Services</a></Link></li>
-                  <li className="hide-on-mobile"><Link href="/"><a>Contact Us</a></Link></li>
+                  <li className="hide-on-mobile"><Link activeClassName='active' href="/"><a>Home</a></Link></li>
+                  <li className="hide-on-mobile"><Link activeClassName='active' href="/about"><a>About Us</a></Link></li>
+                  <li className="hide-on-mobile"><Link activeClassName='active' href="/services"><a>Services</a></Link></li>
+                  <li className="hide-on-mobile"><Link activeClassName='active' href="/contactus"><a>Contact Us</a></Link></li>
                   {/* <li className="hide-on-mobile"><Link href="https://afrohub.typeform.com/to/rgfeMI"><a className="button button-header" target="_blank">Join the Waitlist</a></Link></li> */}
                   <li className="bugger-menu hide-on-desktop">
                       <span className="line"></span>
