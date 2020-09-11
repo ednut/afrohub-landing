@@ -16,6 +16,10 @@ const BannerStyles = styled.div`
         display: block;
         left: 1rem;
         top: 40rem;
+        @media (max-width: 991px){
+            top: 50rem;
+            bottom: 3rem;
+        }
     }
     .circle{
         position: absolute;
@@ -26,6 +30,11 @@ const BannerStyles = styled.div`
         display: block;
         left: 8rem;
         top: 50rem;
+        @media (max-width: 991px){
+            left: 8rem;
+            bottom: 5rem;
+            top: auto;
+        }
     }
     .triangle-wrap{
         position: absolute;
@@ -33,6 +42,10 @@ const BannerStyles = styled.div`
         right: 30rem;
         top: 33rem;
         z-index: 100;
+        @media (max-width: 991px){
+            right: 2rem;
+            top: 9rem;
+        }
         .triangle{
             fill: transparent;
             stroke: #F69BFC;

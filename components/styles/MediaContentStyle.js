@@ -12,6 +12,9 @@ const MediaContentStyle = styled.div`
         flex-direction: column;
         margin-bottom: 2rem;
     }
+    .negative-mt-7{
+        margin-top: -7rem;
+    }
     .media{
         &-image{
             width: 50%;

@@ -8,7 +8,7 @@ const Features = () => (
         <ContainerStyles>
             <MediaContentStyle className="content-right">
                 <div className="media-image">
-                    <img src="/static/launchpad.png" />
+                    <img className="negative-mt-7" src="/static/launchpad1.png" />
                 </div>
                 <div className="media-content">
                     <div className="media-content--subtitle">Features</div>
