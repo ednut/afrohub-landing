@@ -27,10 +27,7 @@ const Nav = () => {
     setOpenNav(prev => prev = !prev);
     console.log(openNav)
   }
-  const test = () => {
-    console.log('clicked')
-  }
-
+  
   return (
     <NavStyles>
       <ContainerStyles>
