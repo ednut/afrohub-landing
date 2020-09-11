@@ -37,7 +37,7 @@ const NetworkStyle = styled.div`
                 color: ${props => props.theme.white};
                 &__title{
                     font-weight: 600;
-                    font-size: 3rem;
+                    font-size: ${props => props.theme.titleFont};
                     line-height: 4rem;
                     width: 70%;
                     margin: 10rem auto 2rem auto;
@@ -46,7 +46,7 @@ const NetworkStyle = styled.div`
                     }
                 }
                 &__caption{
-                    font-size: 1.6rem;
+                    font-size: ${props => props.theme.captionFont};
                     margin-top: 1rem;
                     line-height: 2.5rem;
                     margin-bottom: 1rem;

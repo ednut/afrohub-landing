@@ -10,7 +10,7 @@ const FeaturesStyles = styled.div`
         }
         &-title{
             font-weight: 600;
-            font-size: 3rem;
+            font-size: ${props => props.theme.titleFont};
             line-height: 4rem;
             width: 70%;
             margin: 0 auto;
@@ -21,7 +21,7 @@ const FeaturesStyles = styled.div`
             }
         }
         &-caption{
-            font-size: 1.6rem;
+            font-size: ${props => props.theme.captionFont};
             margin-top: 1rem;
             line-height: 2.5rem;
             margin-bottom: 1rem;
@@ -63,7 +63,7 @@ const FeaturesStyles = styled.div`
                 &_title{
                     text-align: left;
                     font-weight: 600;
-                    font-size: 1.6rem;
+                    font-size: ${props => props.theme.captionFont};
                 }
                 &_caption{
                     text-align: left;

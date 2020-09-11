@@ -35,23 +35,21 @@ const NavStyles = styled.div`
                         font-style: normal;
                         font-weight: 400;
                         line-height: 2rem;
-                        font-size: 1.5rem;
+                        font-size: 1.3rem;
                         text-transform: uppercase;
                         display: inline-block;
                         border-bottom: 0.2rem solid transparent;
-                    }
-                    &.current{
-                        a{
+                        letter-spacing: 0.1rem;
+                        &.active{
                             position: relative;
                             &::after{
                                 content: "";
                                 position: absolute;
-                                background: #1FBD97;
+                                background: #fff;
                                 width: 100%;
-                                bottom: -0.8rem;
-                                height: 0.4rem;
+                                bottom: -2.8rem;
+                                height: 0.2rem;
                                 left: 0;
-                                border-radius: 2.3rem;
                             }
                         }
                     }

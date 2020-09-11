@@ -15,7 +15,7 @@ const Features = () => (
                         </div>
                         <div className="features-content--info">
                             <div className="features-content--info_title">Network</div>
-                            <div className="features-content--info_caption">Join AfroHub and increase your global network of Black professionals in tech.</div>
+                            <div className="features-content--info_caption">By joining you’ll expand your global network of Black Business Professionals.</div>
                         </div>
                     </div>
 
@@ -25,7 +25,7 @@ const Features = () => (
                         </div>
                         <div className="features-content--info">
                             <div className="features-content--info_title">Build</div>
-                            <div className="features-content--info_caption">Benefit from access to a community that will help you build innovative products and create new opportunities.</div>
+                            <div className="features-content--info_caption">Benefit from access to a community that will help you to create innovative products and solutions.</div>
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@ const Features = () => (
                         </div>
                         <div className="features-content--info">
                             <div className="features-content--info_title">Discover</div>
-                            <div className="features-content--info_caption">Continue supporting Black-led ventures by gaining access to our directory of carefully vetted businesses. #BuyBlack</div>
+                            <div className="features-content--info_caption">Continue supporting Black-led ventures by gaining access to our directory of vetted businesses #BuyBlack.</div>
                         </div>
                     </div>
 
@@ -44,8 +44,8 @@ const Features = () => (
                             <img src="/static/wind.svg" />
                         </div>
                         <div className="features-content--info">
-                            <div className="features-content--info_title">Enhance Cultural Awareness</div>
-                            <div className="features-content--info_caption">Enhance your cultural knowledge by enjoying content and conversation curated by Black people from all over the world.</div>
+                            <div className="features-content--info_title">Enhance</div>
+                            <div className="features-content--info_caption">Enjoying cross-cultural conversations with Black people all over the world and receive exclusive invites to global events and webinars.</div>
                         </div>
                     </div>
 
@@ -64,8 +64,8 @@ const Features = () => (
                             <img src="/static/hear.svg" />
                         </div>
                         <div className="features-content--info">
-                            <div className="features-content--info_title">Hear</div>
-                            <div className="features-content--info_caption">Get access to the latest black news and receive member-only invitations to events and webinars</div>
+                            <div className="features-content--info_title">Keep updated</div>
+                            <div className="features-content--info_caption">Stay current with access to our carefully curated black tech news, case studies and updates.</div>
                         </div>
                     </div>
                 </div>

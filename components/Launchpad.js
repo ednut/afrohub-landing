@@ -14,13 +14,11 @@ const Features = () => (
                     <div className="media-content--subtitle">Features</div>
                     <div className="media-content--title">Launchpad</div>
                     <div className="media-content--caption">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation
+                    Use our Launchpad - our one-stop shop helping to professionally structure your startup. Our Launchpad will provide you with all the vital information and insights helping you to effectively build your business.
                     </div>
                     <div className="media-content--button">
                         <Link href="https://afrohub.typeform.com/to/rgfeMI">
-                            <ButtonStyles> Learn More </ButtonStyles>
+                            <ButtonStyles> Launch Now </ButtonStyles>
                         </Link>
                     </div>
                 </div>

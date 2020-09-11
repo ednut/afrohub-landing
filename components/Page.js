@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
+import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import Nav from './Nav';
 import Meta from './Meta';
+import Footer from '../components/Footer'
 
 const theme = {
   headerHeight: '8rem',
   brandColor: '#3188DD',
   black: '#051441',
   white: '#ffffff',
+  captionFont: "1.8rem",
+  titleFont: "3rem",
   footerColor: '#001329'
 };
 
@@ -55,6 +58,7 @@ class Page extends Component {
           <GlobalStyle />
           <Nav />
           {this.props.children}
+          <Footer/>
       </ThemeProvider>
     );
   }

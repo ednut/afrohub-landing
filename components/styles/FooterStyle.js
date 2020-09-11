@@ -52,7 +52,7 @@ const FooterStyle = styled.footer`
                             color: rgba(255, 255, 255, 0.72);
                             transition: all 0.3s ease 0s;
                             i{
-                                font-size: 1.6rem;
+                                font-size: ${props => props.theme.captionFont};
                             }
                             &:hover{
                                 color: ${props => props.theme.white};

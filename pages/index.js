@@ -7,16 +7,17 @@ import Launchpad from '../components/Launchpad'
 import Community from '../components/Community'
 import Contracts from '../components/Contracts'
 import Professionals from '../components/Professionals'
-import Footer from '../components/Footer'
+
 
 const Home = () => (
     <>
-        <Banner title="Business Development Re-Invented" 
+        <Banner title="Black Business Reinvented" 
                 caption="Unifying the global Black network, AfroHub is a space for black people working or interested in tech to connect, collaborate and build black-led products." 
                 button={true}
-                
+                image="/static/banner-img.png"
+                showBannerDots = {true}
         />
-        <Partners/>
+        {/* <Partners/> */}
         <Diversity/>
         <Features/>
         <Network/>
@@ -24,7 +25,6 @@ const Home = () => (
         <Community/>
         <Contracts/>
         <Professionals/>
-        <Footer/>
     </>
 )
 

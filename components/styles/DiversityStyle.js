@@ -11,7 +11,7 @@ const DiversityStyle = styled.div`
     .diversity{
         &-title{
             font-weight: 600;
-            font-size: 3rem;
+            font-size: ${props => props.theme.titleFont};
             line-height: 4rem;
             margin-bottom: 2rem;
             @media (max-width: 991px){
@@ -19,7 +19,7 @@ const DiversityStyle = styled.div`
             }
         }
         &-caption{
-            font-size: 1.6rem;
+            font-size: ${props => props.theme.captionFont};
             margin-top: 1rem;
             line-height: 2.5rem;
             margin-bottom: 1rem;
