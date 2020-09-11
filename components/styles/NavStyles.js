@@ -72,6 +72,56 @@ const NavStyles = styled.div`
             }
         }
     }
+    .mobile-nav{
+        position: absolute;
+        background: #fff;
+        width: 100%;
+        z-index: 100;
+        left: 0;
+        right: 0;
+        top: 0;
+        i{
+            position: absolute;
+            font-size: 3rem;
+            right: 2rem;
+            top: 1rem;
+            color: ${props => props.theme.brandColor};
+            z-index: 100;
+        }
+        ul{
+            height: auto;
+            position: relative;
+            text-align: center;
+            margin: 0;
+            padding: 5rem 0;
+            li{
+                display: block;
+                margin: 0;
+                padding: 0;
+                a{
+                    color: ${props => props.theme.black};
+                    font-size: 1.6rem;
+                    display: block;
+                    line-height: 1rem;
+                    font-weight: 600;
+                    display: inline-block;
+                    &.active{
+                        position: relative;
+                        &::after{
+                            content: "";
+                            position: absolute;
+                            background: #000;
+                            width: 100%;
+                            bottom: -2.8rem;
+                            height: 0.2rem;
+                            left: 0;
+                            top: 1.7rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
 `
 

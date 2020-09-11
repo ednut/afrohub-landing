@@ -137,6 +137,7 @@ const FooterStyle = styled.footer`
                         border: none;
                         outline: none;
                         padding: 0 10px;
+                        font-size: 1.6rem;
                     }
                     button{
                         border: none;
