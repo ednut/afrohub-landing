@@ -22,12 +22,12 @@ Router.onRouteChangeError = () => {
 
 const Nav = () => {
 
-  const [openNav, setOpenNav] = useState(true)
+  const [openNav, setOpenNav] = useState(false)
   const mobileNav = () => {
     setOpenNav(prev => prev = !prev);
     console.log(openNav)
   }
-  
+
   return (
     <NavStyles>
       <ContainerStyles>
