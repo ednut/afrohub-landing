@@ -1,0 +1,57 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-e750b8bf0c81a657f011.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/U5E42CJutbXVOyhiUdYTt/_buildManifest.js",
+    "static/U5E42CJutbXVOyhiUdYTt/_ssgManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/main-181a33cb0a64a942dc30.js",
+      "static/chunks/webpack-ccf5ab034a524403276a.js",
+      "static/chunks/framework.085e84bea8b122ad7b41.js",
+      "static/chunks/01ff61e80c9f32148fe790b5245d38bcf58b5deb.767f3c5133018ac0b442.js",
+      "static/chunks/3ef630e34cd10ba68f9d468ac363ff81c534e1e9.78a9f3f335e9eb70bd5f.js",
+      "static/chunks/pages/index-58cbf6da1e9a7b157f60.js"
+    ],
+    "/_app": [
+      "static/chunks/main-181a33cb0a64a942dc30.js",
+      "static/chunks/webpack-ccf5ab034a524403276a.js",
+      "static/chunks/framework.085e84bea8b122ad7b41.js",
+      "static/chunks/01ff61e80c9f32148fe790b5245d38bcf58b5deb.767f3c5133018ac0b442.js",
+      "static/chunks/3ef630e34cd10ba68f9d468ac363ff81c534e1e9.78a9f3f335e9eb70bd5f.js",
+      "static/chunks/pages/_app-5d29762c68f45a54f337.js"
+    ],
+    "/_error": [
+      "static/chunks/main-181a33cb0a64a942dc30.js",
+      "static/chunks/webpack-ccf5ab034a524403276a.js",
+      "static/chunks/framework.085e84bea8b122ad7b41.js",
+      "static/chunks/pages/_error-83d9a4eab7fa36c1812c.js"
+    ],
+    "/about": [
+      "static/chunks/main-181a33cb0a64a942dc30.js",
+      "static/chunks/webpack-ccf5ab034a524403276a.js",
+      "static/chunks/framework.085e84bea8b122ad7b41.js",
+      "static/chunks/01ff61e80c9f32148fe790b5245d38bcf58b5deb.767f3c5133018ac0b442.js",
+      "static/chunks/pages/about-8dcd4237db84e5f030c6.js"
+    ],
+    "/contactus": [
+      "static/chunks/main-181a33cb0a64a942dc30.js",
+      "static/chunks/webpack-ccf5ab034a524403276a.js",
+      "static/chunks/framework.085e84bea8b122ad7b41.js",
+      "static/chunks/01ff61e80c9f32148fe790b5245d38bcf58b5deb.767f3c5133018ac0b442.js",
+      "static/chunks/pages/contactus-94e4c78e719815eb7381.js"
+    ],
+    "/services": [
+      "static/chunks/main-181a33cb0a64a942dc30.js",
+      "static/chunks/webpack-ccf5ab034a524403276a.js",
+      "static/chunks/framework.085e84bea8b122ad7b41.js",
+      "static/chunks/01ff61e80c9f32148fe790b5245d38bcf58b5deb.767f3c5133018ac0b442.js",
+      "static/chunks/pages/services-4053399f11a09eac7949.js"
+    ]
+  },
+  "ampFirstPages": []
+}
